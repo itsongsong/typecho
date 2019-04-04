@@ -11,8 +11,8 @@
                     <h2 class="post_h"><?php $this->title() ?></h2>
                     <div class="post_tag"> 
                         <span class="post_c" ><?php $this->category(','); ?></span> 
-                        <span class="post_c"><?php $this->tags(' ', true, ''); ?></span> 
-                        <span class="post_c"><a itemprop="discussionUrl" href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a></span> 
+                        <span class="post_c"><?php $this->tags(' ', true, ''); ?></span>
+                        <span class="post_c"><a itemprop="discussionUrl" href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('评论', '1 条评论', '%d 条评论'); ?></a></span>
                     </div>
                 </div> 
             </hgroup>
